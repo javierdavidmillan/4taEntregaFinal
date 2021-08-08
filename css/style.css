@@ -238,6 +238,9 @@ blockquote p {
   position: relative;
   font-style: italic; }
 
+.divider {
+  padding-top: 6rem; }
+
 .containerContacto {
   max-width: 850px !important;
   width: 100%; }
