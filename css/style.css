@@ -238,9 +238,6 @@ blockquote p {
   position: relative;
   font-style: italic; }
 
-.divider {
-  padding-top: 6rem; }
-
 .containerContacto {
   max-width: 850px !important;
   width: 100%; }
@@ -438,7 +435,14 @@ nav {
 .social {
   width: 1rem; }
 
-@media (min-width: 576px) {
+@media (max-width: 767px) {
+  .header {
+    background-color: black;
+    position: relative;
+    top: 0;
+    z-index: 2000;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem; }
   .nav-link {
     font-family: 'Montserrat';
     text-decoration: none;
@@ -448,7 +452,7 @@ nav {
     margin-left: 0;
     margin-right: 0;
     transition: color 300ms;
-    border-top: 1px solid rgba(255, 255, 255, 0.08); } }
+    border-top: 1px solid rgba(255, 255, 255, 0.08) !important; } }
 
 @media (min-width: 768px) {
   .nav-link {

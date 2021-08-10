@@ -67,7 +67,17 @@ nav{
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
+@media (max-width: 767px) {
+    .header {
+        background-color: rgba(0, 0, 0, 1);
+        position: relative; 
+        top: 0; 
+        // width: 100%;
+        z-index: 2000;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+    }
+
     .nav-link {
         font-family: 'Montserrat';
         text-decoration: none;
@@ -77,7 +87,7 @@ nav{
         margin-left: 0;
         margin-right: 0;
         transition: color 300ms;  
-        border-top: 1px solid rgba(255, 255, 255, 0.08);
+        border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
 }
 }
 

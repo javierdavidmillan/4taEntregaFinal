@@ -1,28 +1,34 @@
 /* /////////////// SLIDER ///////////////*/
 
-.carousel-item{
-&__texto {
+
+.carousel-item {
+  &__texto {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 
-&__titulo {
+  &__titulo {
     color: #ffffff;
-    font:$fontTitle;
+    font: $fontTitle;
     letter-spacing: -0.5px;
     // font-size: 3rem;
     font-weight: 400;
     text-align: center;
-}
+  }
 
-&__parrafo {
+  &__parrafo {
     color: #ffffff;
-    font:$fontPrincipal;
+    font: $fontPrincipal;
     letter-spacing: -0.5px;
     font-size: 1rem;
     font-weight: 400;
     text-align: center;
+  }
 }
-}
+// @media (max-width: 576px) {
+// .carousel {
+    // padding-top: 85px !important;
+// }
+// }

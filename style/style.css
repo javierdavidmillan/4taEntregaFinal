@@ -74,6 +74,8 @@
 /* /////////////// MOBILE /////////////*/
 
 @media (min-width: 576px) {
+   
+
     .grid {
         display: grid;
         grid-template-columns: 1fr;
