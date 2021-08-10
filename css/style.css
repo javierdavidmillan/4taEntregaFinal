@@ -279,6 +279,9 @@ blockquote p {
     color: #606060;
     border: 1px solid #606060; }
 
+.divider {
+  height: 90px; }
+
 .title {
   padding-top: 30px;
   padding-bottom: 20px;
@@ -302,6 +305,10 @@ blockquote p {
     font-weight: 700;
     margin-bottom: 20px;
     text-align: center; }
+
+@media (max-width: 767px) {
+  .divider {
+    height: 20px; } }
 
 .footer {
   background-color: #151515; }
